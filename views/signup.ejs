@@ -1,0 +1,30 @@
+<%- include('./layout/head')%>
+<%- include('./layout/navigation')%>
+
+
+<div class="">
+    <div class="container mx-auto py-28">
+        <div class="max-w-md mx-auto">
+            <form action="">
+                <div class="py-2 flex flex-col">
+                    <label class="font-sans-serif text-lg pb-1">Username</label>
+                    <input type="text" class="font-sans text-lg py-2 px-4 w-full border-2 border-gray-400 outline-none shadow-xl">
+                </div>
+                <div class="py-2 flex flex-col">
+                    <label class="font-sans-serif text-lg pb-1">Email</label>
+                    <input type="email" class="font-sans text-lg py-2 px-4 w-full border-2 border-gray-400 outline-none shadow-xl">
+                </div>
+                <div class="py-2 flex flex-col">
+                    <label class="font-sans-serif text-lg pb-1">Password</label>
+                    <input type="password" class="font-sans text-lg py-2 px-4 w-full border-2 border-gray-400 outline-none shadow-xl">
+                </div>
+                <button class="font-sans text-lg bg-green-500 py-4 w-full  outline-none">Signup</button>
+            </form>
+            <hr>
+            <p class="font-sans text-lg text-center py-3">Or</p>
+            <button class="font-sans text-lg bg-blue-500 py-4 w-full  outline-none">
+                <a href="/auth">Login</a>
+            </button>
+        </div>
+    </div>
+</div>

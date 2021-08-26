@@ -1,0 +1,8 @@
+creating a preschool website
+ stack: node.js, ejs, tailwind.css, mongodb, nodemailer, passport authentication
+
+target: nodemailer, passport authentication, coockies, deep node
+
+
+Site plan: 
+    pages: homepage,contact page, about page, gallery, 
